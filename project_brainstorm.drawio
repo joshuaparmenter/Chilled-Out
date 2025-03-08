@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.0">
   <diagram name="Page-1" id="mEpTF7mdyn6rc0feGa-u">
-    <mxGraphModel>
+    <mxGraphModel dx="1205" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-1" value="&lt;h1&gt;Basic Player Movement &lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-2" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;WASD movement&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Dash button&lt;/li&gt;&lt;li&gt;Mouse for heading selection &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Portal Movement mechanic&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-11" value="&lt;h1&gt;Core Gameplay&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-12" value="&lt;ul&gt;&lt;li&gt;Cyberpunk (synth music and neon art style&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Dungeon crawler/bullet hell/roguelike&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Randomized location in dungeon&lt;/div&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Predesigned/AI Gen&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Wave based enemies&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-13" value="Spawn in random location in dungeon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P9PaTT-RQ3ul_myOA_PX-14" target="P9PaTT-RQ3ul_myOA_PX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-14" value="&lt;div&gt;Enemy encounters/waves&lt;/div&gt;&lt;div&gt;- Time based wave difficulty &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9PaTT-RQ3ul_myOA_PX-13" target="P9PaTT-RQ3ul_myOA_PX-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="460" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-17" value="Move through dungeon" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P9PaTT-RQ3ul_myOA_PX-16">
+          <mxGeometry x="-0.26" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="P9PaTT-RQ3ul_myOA_PX-18" target="P9PaTT-RQ3ul_myOA_PX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-18" value="Boss fight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9PaTT-RQ3ul_myOA_PX-19" target="P9PaTT-RQ3ul_myOA_PX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-19" value="Loot/Extract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-25" value="&lt;h1&gt;Item Structure&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="60" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-26" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Different rarity that associates with better stats&lt;/li&gt;&lt;li&gt;Modular items &lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Craftable&quot; recipes for upgrading abilities&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Automated unique pixel art mashup capability&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-27" value="&lt;h1&gt;Gameplay Loop&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-28" value="&lt;h1&gt;Attack Types&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="840" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-29" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Basic Attack (single enemy): Projectile&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Machine Gun? Shotgun? Sniper?&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Linear Attack: Single line that shoots outwards (cleave through enemies)&lt;/li&gt;&lt;li&gt;AOE Attack&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Radial? Pattern based? Sprite-based?&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="890" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-32" value="Shape, Size, Cleave, Speed, Amount/Spread, Damage, Regen Time " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-34" value="&lt;h2&gt;Attack Modifiers&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-36" value="&lt;h1&gt;Enemies&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="300" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

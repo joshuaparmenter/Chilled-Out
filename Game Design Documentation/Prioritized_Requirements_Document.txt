@@ -1,4 +1,4 @@
-1. Folder Project Stucture
+1. Folder Project Stucture (DONE)
 
 2. Basic Scene Functionality 
   a. Basic Player

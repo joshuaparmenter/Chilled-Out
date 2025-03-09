@@ -1,6 +1,6 @@
-# Godot Game Project
+# Chilled Out
 
-Welcome to the repository for our Godot game project! This README provides important information about the project's structure, including the branching and commit strategy, as well as other key details.
+Welcome to the repository for our Godot game Chilled Out! This README provides important information about the project's structure, including the branching and commit strategy, as well as other key details.
 
 ## Table of Contents
 

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.0">
   <diagram name="Page-1" id="mEpTF7mdyn6rc0feGa-u">
-    <mxGraphModel dx="1205" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1205" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,10 @@
           <mxGeometry x="40" y="70" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-11" value="&lt;h1&gt;Core Gameplay&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="180" width="240" height="30" as="geometry" />
+          <mxGeometry x="40" y="160" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P9PaTT-RQ3ul_myOA_PX-12" value="&lt;ul&gt;&lt;li&gt;Cyberpunk (synth music and neon art style&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Dungeon crawler/bullet hell/roguelike&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Randomized location in dungeon&lt;/div&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Predesigned/AI Gen&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Wave based enemies&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="210" width="240" height="100" as="geometry" />
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-12" value="&lt;ul&gt;&lt;li&gt;Cyberpunk (synth music and neon art style&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Dungeon crawler/bullet hell/roguelike&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Randomized location in dungeon&lt;/div&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Predesigned/AI Gen&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Wave based enemies&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Move through science labs where they are designing these monstrosities and they fend us off&lt;/div&gt;&lt;/li&gt;&lt;li&gt;Puzzles?&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-13" value="Spawn in random location in dungeon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="350" width="290" height="130" as="geometry" />
@@ -49,13 +49,13 @@
           <mxGeometry x="40" y="640" width="290" height="130" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-25" value="&lt;h1&gt;Item Structure&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="60" width="240" height="50" as="geometry" />
+          <mxGeometry x="340" y="70" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P9PaTT-RQ3ul_myOA_PX-26" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Different rarity that associates with better stats&lt;/li&gt;&lt;li&gt;Modular items &lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Craftable&quot; recipes for upgrading abilities&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Automated unique pixel art mashup capability&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="110" width="240" height="130" as="geometry" />
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-26" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Different rarity that associates with better stats&lt;/li&gt;&lt;li&gt;Modular items &lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Craftable&quot; recipes for upgrading abilities&lt;/li&gt;&lt;li&gt;Recipe booklet as you discover configs&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Automated unique pixel art mashup capability&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-27" value="&lt;h1&gt;Gameplay Loop&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="280" width="190" height="70" as="geometry" />
+          <mxGeometry x="330" y="290" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-28" value="&lt;h1&gt;Attack Types&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="840" width="240" height="50" as="geometry" />
@@ -69,11 +69,38 @@
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-34" value="&lt;h2&gt;Attack Modifiers&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="840" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P9PaTT-RQ3ul_myOA_PX-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="880" width="300" height="130" as="geometry" />
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-35" value="&lt;ul&gt;&lt;li&gt;Basic Ads: Military Troops (Guns)&lt;/li&gt;&lt;li&gt;Cyborg (mid tier)&lt;/li&gt;&lt;li&gt;Boss: Other amalgamations/beasts&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="P9PaTT-RQ3ul_myOA_PX-36" value="&lt;h1&gt;Enemies&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="820" width="300" height="60" as="geometry" />
+          <mxGeometry x="40" y="840" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-37" value="&lt;h1&gt;Inventory/Crafting&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="70" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-38" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Ultra Modular inventory (maybe USB hub based?) &lt;br&gt;&lt;/li&gt;&lt;li&gt;Wire together modules to create different powerful upgrades&lt;/li&gt;&lt;li&gt;Tarkov type inventory system?&lt;/li&gt;&lt;li&gt;Extract Pack for every dungeon, can also use inventory to store.&lt;/li&gt;&lt;li&gt;Heals/status effects go in the same inventory as upgrades&lt;/li&gt;&lt;li&gt;Durability of items? Repair over course of dungeon.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-39" value="&lt;h1&gt;Storyline&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-40" value="&lt;ul&gt;&lt;li&gt;Frankenstien robot gone wrong&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Gain sentience?? Cheesy&lt;/li&gt;&lt;li&gt;Creator unplugged our robot lover, all we wanted to do was love, military created us to kill&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-41" value="&lt;ul&gt;&lt;li&gt;Multiplayer 1v1? There is precedent because they player fights other amalgamations. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Team based would be wild too....&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="920" y="800" width="360" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-42" value="&lt;h1&gt;Fun ideas&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="730" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-43" value="&lt;h1&gt;Story Mode&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="70" width="245" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-44" value="&lt;ul&gt;&lt;li&gt;Attack different military sites in order to get specific weapons etc&lt;/li&gt;&lt;li&gt;Once you unlock everything it turns into autogenerated/community made dungeons that you unlock randomized stuff through&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="615" y="120" width="245" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P9PaTT-RQ3ul_myOA_PX-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P9PaTT-RQ3ul_myOA_PX-12" target="P9PaTT-RQ3ul_myOA_PX-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -2,6 +2,8 @@
 
 Welcome to the repository for our Godot game Chilled Out! This README provides important information about the project's structure, including the branching and commit strategy, as well as other key details.
 
+![alt text](https://github.com/joshuaparmenter/Chilled-Out/blob/setup/DALL%C2%B7E%202025-03-08%2018.44.34%20-%20A%20logo%20for%20a%20cyberpunk%20pixel%20art%20dungeon%20crawler%20game%2C%20incorporating%20USB%20ports%20and%20wires.%20The%20design%20should%20have%20a%20futuristic%20and%20gritty%20cyberpunk%20aes.webp)
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)

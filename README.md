@@ -93,4 +93,3 @@ This section outlines the branching and commit strategy used for the Godot game 
 
 > **How to contact the project maintainers**  
 > Provide email addresses, links to the project's website or other communication channels, and any relevant contact information.
-

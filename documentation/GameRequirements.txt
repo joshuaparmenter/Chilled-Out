@@ -1,0 +1,224 @@
+
+NEXT STEPS
+Documentation
+1. Game Design Document (GDD)
+The Game Design Document (GDD) is the foundation of your game's development. It outlines the entire game, from its mechanics to its narrative. It should provide enough detail for your development team (or for yourself, if you’re working alone) to understand the vision for the game.
+Sections to Include:
+
+    Game Overview:
+        Game title, genre, platform(s), target audience.
+        High-level concept of the game.
+        Brief description of the game’s story (if applicable).
+    Core Gameplay Mechanics:
+        Player controls and movement.
+        Combat system (if applicable).
+        Inventory, leveling, and progression.
+        Interaction systems (e.g., puzzle-solving, exploration).
+    Game World & Setting:
+        Description of the game world (locations, time period, etc.).
+        Narrative themes (if applicable).
+        World-building details.
+    Characters:
+        Main character(s) and their abilities.
+        NPCs (Non-playable characters) and their roles in the story or gameplay.
+        Enemies and AI behaviors.
+    Art Style:
+        Visual aesthetics (pixel art, 3D models, hand-drawn, etc.).
+        Example art pieces (concept art, mood boards, references).
+    Audio & Music:
+        Style of music and sound effects.
+        Music themes for different parts of the game (e.g., exploration music, combat music).
+    Levels & Environments:
+        A high-level description of game levels or worlds.
+        Level design guidelines (for layout, difficulty progression, etc.).
+    UI/UX Design:
+        Menu designs, HUD (Health, inventory, map, etc.), and navigation.
+        Flow of screens (how players will navigate menus and in-game screens).
+    Story & Narrative (if applicable):
+        Plot summary, key story beats, character arcs.
+        Dialogue structure (if interactive).
+        Branching narrative (if the game includes player choices).
+    Monetization Strategy (if applicable):
+        Pricing models (upfront purchase, in-app purchases, ads, etc.).
+        Post-launch content (DLCs, updates, microtransactions).
+    Technical Specifications:
+        Target platforms and hardware specifications.
+        System requirements for PC or console releases.
+
+2. Technical Documentation
+This type of documentation explains the technical aspects of your game, including code structure, systems design, and other programming-related details.
+Sections to Include:
+
+    Code Architecture:
+        Overview of the code structure (e.g., main loops, game objects, and systems).
+        Descriptions of key systems (e.g., player movement, AI, inventory system).
+        Guidelines for writing clean, maintainable code (e.g., naming conventions, commenting standards).
+    API Documentation (for custom engines or libraries):
+        If you’ve created custom scripts, libraries, or APIs, document how these work, their methods, and how to use them.
+    Asset Pipeline:
+        Documentation of how assets (e.g., textures, sounds, models) are integrated into the game.
+        Format specifications (e.g., texture resolutions, model polycounts).
+        Instructions on asset import/export.
+    Game Engine Setup:
+        Instructions for setting up the game engine (e.g., Godot, Unity) and how to configure it for the project.
+    Version Control & Collaboration:
+        Git workflow, how to branch and merge code, where assets are stored, and guidelines for working with Git.
+    Build Instructions:
+        How to build the game for various platforms (PC, mobile, console).
+        Tools required for building (e.g., Android SDK for mobile, Xcode for iOS).
+    Testing Documentation:
+        Guidelines for writing and running tests.
+        Unit tests, integration tests, or automated playtests (if applicable).
+        How to handle bug reports and debug the game.
+
+3. Art & Asset Documentation
+Art and assets are crucial parts of any game, and organizing them clearly can save time and confusion for all involved.
+Sections to Include:
+
+    Asset List:
+        A comprehensive list of all assets used in the game (textures, models, audio, etc.).
+        Details on each asset (resolution, file type, intended use in the game).
+    Asset Naming Conventions:
+        Consistent naming conventions for assets (e.g., enemy_idle.png, player_walk.ogg).
+    Art Style Guide:
+        Guidelines for creating assets that fit the visual style of the game (color palette, art direction, example references).
+    Animation Documentation:
+        Instructions on animation styles, frame rates, and specifications for character and object animations.
+        Animation flow charts (e.g., idle → walking → running → jumping → death).
+
+4. Level Design Documentation
+Level design is another key aspect, especially in platformers, RPGs, or dungeon crawlers. Clear documentation helps avoid confusion and ensures consistency across all levels.
+Sections to Include:
+
+    Level Layouts:
+        Diagrams, sketches, or maps of each level, showing key areas, paths, obstacles, and points of interest.
+        Placement of key objects or features (e.g., doors, enemies, collectibles).
+    Gameplay Flow:
+        Description of how the player moves through the level.
+        Key interactions (e.g., puzzles, combat encounters, events).
+    Difficulty Curve:
+        Instructions on how the difficulty of the level increases (e.g., tougher enemies, more complex puzzles).
+    Environment & Art Assets:
+        Specifications for what assets should be used in the level (e.g., wall textures, lighting, props).
+
+5. User Interface (UI) Documentation
+UI documentation outlines the design and flow of menus, HUD, and all on-screen elements that the player interacts with.
+Sections to Include:
+
+    UI Flowcharts:
+        Flow diagrams showing the navigation between different menus (e.g., Main Menu → Options → Gameplay).
+    HUD Design:
+        Layout and functionality of in-game elements (health bar, score, inventory display, etc.).
+    UI Guidelines:
+        Color schemes, font choices, and other design specifications for consistency across menus and in-game UI.
+    Button Layouts & Interaction:
+        Where buttons are placed and how they interact with the player (e.g., hover effects, button presses, sounds).
+
+6. Sound & Music Documentation
+Sound design is crucial to a game’s atmosphere, so it’s important to document how sound effects and music should work within the game.
+Sections to Include:
+
+    Sound Asset List:
+        A list of sound effects used in the game, including their purpose (e.g., footsteps, weapon swings, environment sounds).
+        Music tracks (background music for levels, menus, etc.).
+    Sound Implementation:
+        Instructions on how sounds are triggered in the game (e.g., footsteps when moving, background music that loops).
+    Audio Specifications:
+        Audio formats, sample rates, and volume levels for consistency.
+
+7. Test Plan & QA Documentation
+Testing is crucial to ensure a game runs smoothly, and quality assurance (QA) documentation helps standardize the process.
+Sections to Include:
+
+    Test Cases:
+        Detailed descriptions of the tests to be run, including gameplay mechanics, performance, and bug checks.
+    Bug Reporting:
+        A standard format for reporting bugs (e.g., steps to reproduce, severity, screenshots).
+    Playtest Feedback:
+        A log for gathering feedback from playtesters (including game balance, difficulty, mechanics, etc.).
+
+8. Post-launch Documentation (Optional)
+After launch, you’ll likely continue updating and patching the game. This documentation outlines how post-launch content and fixes will be managed.
+Sections to Include:
+
+    Patch Notes:
+        Documentation of changes made in each update (bug fixes, gameplay changes, new content).
+    Content Roadmap:
+        A timeline for future updates, expansions, or additional content.
+
+ 
+Player
+
+    Portal movement
+    Dash movement
+
+Combat System for Player
+
+    Line Attack
+    AOE Attack
+
+Relics
+Backpack & Inventory System
+Crafting System
+
+    Portal
+    Dash
+    Line
+    Basic
+    AOE
+
+Enemy Spawner & Movement System (AI)
+Enemy Combat System
+Boss Enemy
+Progression System
+
+    Is it just relics? Or what else?
+
+User Interface
+
+    Main Menu
+    Health
+    Dash
+    Portal
+    Inventory
+    Attacks
+    Score
+
+Art Assets, Animation, & VFX (Roman?)
+UI Assets
+
+    Buttons
+    Menus
+    HUD (health bar, etc.)
+
+Music/SFX (Chad?)
+
+    Background
+    SFX
+    Voice Acting
+
+Testing
+
+    Test scripts/QA
+    Playtesting
+    Bug fixes
+
+Story Telling & Narrative Design
+
+    Story
+    Diaologues/Choices
+    Cutscenes
+
+NEW FEATURES
+
+    Mo enemies
+    Mo relics
+    Mo dungeons/levels
+        Environment
+        Map design
+        Balancing difficulty
+
+Define when/what release 1.0 should be so we don’t have feature creep
+Polishing/UX for release 1.0
+Marketing and distribution for release 1.0
+

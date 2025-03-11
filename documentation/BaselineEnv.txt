@@ -1,0 +1,42 @@
+Baseline Environment
+
+Simple World
+
+  - Abyss Tile
+
+  (DONE) - Floor Tile 
+
+  (DONE) - Wall Tile
+
+Player
+
+  - Health
+
+  - Simple Attack
+
+Enemy
+
+  - Health
+
+  (DONE) - Simple Attack
+
+  (DONE) - Basic Movement
+
+  - Spawn relic
+
+  (DONE) Relic (pickup)
+
+  (DONE) Dying
+
+Base UI/Game Manager
+
+  - Score 
+
+  - Health
+
+  - Menu?
+
+BUGFIX: 
+  
+  - HOW TO RELIABLY LAYER THINGS?????? GRRRRRR
+  

@@ -1,10 +1,25 @@
-[gd_scene load_steps=2 format=3 uid="uid://d3lef1551nsa8"]
+[gd_scene load_steps=5 format=3 uid="uid://d3lef1551nsa8"]
 
 [ext_resource type="PackedScene" uid="uid://bgs8wnycscrvh" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://clvbeyrbb2m7y" path="res://scenes/tile_map.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://bk3hp427nmhdl" path="res://scenes/slime.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dkdhu5sati6pg" path="res://scenes/relic.tscn" id="4_lbhrr"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(-1, 0)
-
 [node name="player" parent="." instance=ExtResource("1_uwrxv")]
+z_index = 1
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2(-1, 0)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+
+[node name="TileMap" parent="." instance=ExtResource("2_yqjtg")]
+
+[node name="Slime" parent="." instance=ExtResource("3_lnu2h")]
+z_index = 1
+position = Vector2(77, -24)
+
+[node name="relic" parent="." instance=ExtResource("4_lbhrr")]
+position = Vector2(-78, 32)

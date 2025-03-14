@@ -29,13 +29,13 @@ func _on_body_entered(body: Node2D) -> void:
 func _apply_damage():
 	if body_receiving_damage and can_damage and not body_receiving_damage.dead:
 		body_receiving_damage.health -= damage_amount
-		print(body_receiving_damage.health)
+		body_receiving_damage.health_label.text = str(body_receiving_damage.health)
 		if body_receiving_damage.health <= 0:
 			can_damage = false
 			body_receiving_damage.dead = true
 			body_receiving_damage.die()
 
-func _on_body_exited(body: Node2D) -> void:
+func _on_body_exited(_body: Node2D) -> void:
 	can_damage = false
 	damage_timer.stop()  # Stop the timer when the player exits the area
 

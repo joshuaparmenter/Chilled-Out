@@ -2,6 +2,8 @@ extends CharacterBody2D
 
 const SPEED = 60
 
+signal enemy_died
+
 var health: int
 var direction: int
 var dead: bool
@@ -9,9 +11,11 @@ var dead: bool
 @onready var ray_cast_right: RayCast2D = $RayCastRight
 @onready var ray_cast_left: RayCast2D = $RayCastLeft
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var health_label: Label = $Health
 
 func _ready() -> void:
 	health = 100
+	health_label.text = str(health)
 	direction = 1
 	dead = false
 
@@ -27,6 +31,6 @@ func _process(delta: float) -> void:
 	
 	position.x += direction * SPEED * delta
 	
-func die() -> void: 
-	queue_free()
-	
+func die() -> void:
+	emit_signal("enemy_died", position)
+	queue_free()  # Call this after a slight delay

@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://bk3hp427nmhdl"]
+[gd_scene load_steps=11 format=3 uid="uid://bk3hp427nmhdl"]
 
 [ext_resource type="Script" uid="uid://cpiennqs6ibit" path="res://scripts/slime.gd" id="1_n6pvg"]
 [ext_resource type="Texture2D" uid="uid://dte70hdp3wai6" path="res://assets/sprites/slime_purple.png" id="1_p2gj0"]
-[ext_resource type="Script" uid="uid://sifxhj8bu8sh" path="res://scripts/killzone.gd" id="2_n6pvg"]
+[ext_resource type="PackedScene" uid="uid://dpaqo6qrwpeco" path="res://scenes/killzone.tscn" id="3_n6pvg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pjw23"]
 atlas = ExtResource("1_p2gj0")
@@ -40,10 +40,14 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_0l8pv"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pjw23"]
 size = Vector2(14, 13)
 
-[node name="Slime" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n6pvg"]
+size = Vector2(14, 13)
+
+[node name="Slime" type="CharacterBody2D"]
+collision_layer = 4
 script = ExtResource("1_n6pvg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -53,13 +57,12 @@ animation = &"idle"
 frame = 1
 frame_progress = 0.157869
 
-[node name="killzone" type="Area2D" parent="."]
+[node name="Killzone" parent="." instance=ExtResource("3_n6pvg")]
 collision_mask = 2
-script = ExtResource("2_n6pvg")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 position = Vector2(0, -6.5)
-shape = SubResource("RectangleShape2D_0l8pv")
+shape = SubResource("RectangleShape2D_pjw23")
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 position = Vector2(0, -7)
@@ -69,5 +72,6 @@ target_position = Vector2(9, 0)
 position = Vector2(0, -7)
 target_position = Vector2(-10, 0)
 
-[connection signal="body_entered" from="killzone" to="killzone" method="_on_body_entered"]
-[connection signal="body_exited" from="killzone" to="killzone" method="_on_body_exited"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6.5)
+shape = SubResource("RectangleShape2D_n6pvg")

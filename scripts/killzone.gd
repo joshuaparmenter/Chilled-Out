@@ -29,6 +29,7 @@ func _on_body_entered(body: Node2D) -> void:
 func _apply_damage():
 	if body_receiving_damage and can_damage and not body_receiving_damage.dead:
 		body_receiving_damage.health -= damage_amount
+		print(body_receiving_damage.health)
 		if body_receiving_damage.health <= 0:
 			can_damage = false
 			body_receiving_damage.dead = true

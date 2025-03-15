@@ -4,6 +4,8 @@ extends CharacterBody2D
 @onready var timer: Timer = $Timer
 @onready var health_label: Label = $Health
 @onready var score_label: Label = $Score
+@onready var menu: Control = $Camera2D/Menu
+
 
 var speed: float  # Movement speed
 var health: int
@@ -36,6 +38,8 @@ func _physics_process(_delta: float) -> void:
 	if Input.is_action_just_released("attack"):
 		if not dead:
 			attack_shape.disabled = true
+	if Input.is_action_just_released("pause_game"):
+		menu.game_paused()
 	direction = direction.normalized()  # Normalize to prevent faster diagonal movement
 	velocity = direction * speed
 	move_and_slide()

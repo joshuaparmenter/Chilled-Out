@@ -1,0 +1,20 @@
+classDiagram
+	class Game
+	Game <|-- Player
+	Game <|-- Tile_map
+	Game <|-- Slime
+	Game <|-- Relic
+	Game <|-- Menu
+	class Tile_map
+	class Slime
+	Slime: +die()
+	Slime <|-- Killzone
+	class Player
+	Player: +playerAttack()
+	Player: +die()
+	Player: +add_score()
+	Player <|-- Killzone
+	class Killzone
+	class Relic
+	class Menu
+	Menu: +game_paused()

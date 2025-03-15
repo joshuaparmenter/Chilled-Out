@@ -1,0 +1,9 @@
+1. Folder Project Stucture (DONE)
+
+2. Basic Scene Functionality 
+  a. Basic Player
+  b. Basic Enemy
+  c. Main Scene (main script)
+  d. Input manager?
+
+3.  

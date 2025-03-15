@@ -1,0 +1,44 @@
+Baseline Environment
+
+CLASS DIAGRAM - need to figure this out
+
+Simple World
+
+  - Abyss Tile - need to add
+
+  (DONE) - Floor Tile 
+
+  (DONE) - Wall Tile
+
+(DONE) Player
+
+  (DONE) - Health
+
+  (DONE)- Simple Attack
+
+(DONE) Enemy
+
+  (DONE) - Health
+
+  (DONE) - Simple Attack
+
+  (DONE) - Basic Movement
+
+  (DONE) - Spawn relic
+
+(DONE) Relic (pickup)
+
+(DONE) Dying
+
+(DONE) Base UI/Game Manager
+
+(DONE)  - Score 
+
+(DONE) - Health
+
+(DONE) Menu - need to add
+
+BUGFIX: 
+  
+ (NOT DONE) - HOW TO RELIABLY LAYER THINGS?????? GRRRRRR - need to figure this out
+  

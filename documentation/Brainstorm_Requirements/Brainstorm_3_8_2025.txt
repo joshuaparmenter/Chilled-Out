@@ -1,0 +1,61 @@
+Roguelike - beat them up, randomized dungeon, puzzle/purpose for the use of the portals, generative AI waves for
+monsters
+
+Portal mixed with Vampire Survivors
+
+- Leveling up and being able to progress further into deeper dungeons and new tools, equipment, inventory
+- Time spent alive
+- Amalgamation weapons
+
+Inventory - synergistic, Tetris, 1x3, 3x3, L-shaped, putting things together
+
+Sandman from Spider-Man, his arms are the amalgamation
+
+Top-down
+
+First-person roguelike (Doom)
+
+"Dash/dodge" - regenerative (configuration of certain cells with the inventory may unlock/increase)
+"Critical hit damage"
+"Every last bullet of magazine is critical hit"
+
+Score
+- time alive, kills, enemy value, inventory multiplier (items are bad, give damage/take damage, health reduced to like 30%)
+
+
+Portals (press and hold to set location and drag of further location) - bait tactics
+Only your bullets and yourself can move through the portal
+- Certain enemies can move through your portals
+
+Left-click sets one down, you have to run 2 (gets rid of the oldest one with the newest one)
+Replace both portals w/ right click and drag (catapult)
+
+Auto-damage in direction
+Different keys do different things (baseline auto damage, specialty key-based)
+Portal (key-based)
+- Menu, right-click is one portal => left-click is drag and drop
+- Airstrike/Napalm
+- AOE
+
+Inventory (each area of the inventory is 'zoned' to each type of attack, baseline, radius, line, portals (vulnerability, travel time, damage boost)
+- Modular items (any upgrade)
+- AOE damage applied by 50, apply to portal
+- Beat boss, treasure chests, enemies dropped and these items can associate
+- Recipe books of different configurations (buff/weakness), R-rated game, optimization
+- Pixel-art pops up (photo of pixel art)
+- Different levels/dungeons/enemies/bosses
+
+Enemy wave
+Boss wave
+Unmanageable/unpredictable, bug fixes
+
+Backpack/Build (inconvenient & precise drag/drop)
+- Backpack
+
+Boss - knows when you open backpack and jumbles up inventory, inventory, you get what you get, heals
+Blinking red screen when low health, randomized shape, eyeball, use rate of certain item "becomes cursed" (50% upper, 30% lower, online/competitive), if they want to do most broken thing single-player then it's fine.
+
+Online Leaderboard/Multiplayer/Replay
+
+Allow Mods (modification framework for audio, items, enemies, and maps)
+

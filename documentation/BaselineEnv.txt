@@ -30,15 +30,15 @@ Simple World
 
 (DONE) Dying
 
-Base UI/Game Manager
+(DONE) Base UI/Game Manager
 
 (DONE)  - Score 
 
 (DONE) - Health
 
-  - Menu - need to add
+(DONE) Menu - need to add
 
 BUGFIX: 
   
-  - HOW TO RELIABLY LAYER THINGS?????? GRRRRRR - need to figure this out
+ (NOT DONE) - HOW TO RELIABLY LAYER THINGS?????? GRRRRRR - need to figure this out
   

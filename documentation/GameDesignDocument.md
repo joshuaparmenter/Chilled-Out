@@ -1,25 +1,23 @@
-
 # Game Design Document
 
 ## 1.  Game Overview
 
-* **Game Title:** \[Your Game Title] (To be determined)
+* **Game Title:** Chilled Out
 * **Genre:** Roguelike, Beat 'em up, Action
-* **Platform:** \[Target Platform(s)] (To be determined)
-* **Target Audience:** Players who enjoy challenging action games with randomized elements, character progression, and inventory management.
+* **Platform:** PC
+* **Target Audience:** Players who enjoy challenging dungeon-crawler games with randomized elements, character progression, and inventory management.
 * **High-Level Concept:** A top-down roguelike game where players navigate randomized dungeons, battle enemies, and utilize portals for strategic combat and movement. The game blends beat 'em up action with elements of Vampire Survivors-style progression and unique inventory mechanics.
-* **Brief Description:** Players explore dungeons, defeat waves of enemies (potentially using generative AI), and collect items to enhance their abilities. A core mechanic involves using portals for tactical advantages. The game features character progression, diverse enemies, and challenging boss encounters. [cite: 1, 12, 13, 14, 72]
-
+* **Brief Description:** Players explore dungeons, defeat waves of enemies, and collect and combine items to enhance their abilities. A core mechanic involves using portals for tactical advantages. The game features character progression, diverse enemies, and challenging boss encounters. 
 ## 2.  Core Gameplay Mechanics
 
 * **Player Controls and Movement:**
     * Top-down perspective.
     * Dash/dodge mechanic (potentially regenerative or enhanced by inventory).
-    * Portal creation and manipulation (left-click to set, right-click and drag for catapulting). [cite: 2]
+    * Portal creation and manipulation (left-click to set, right-click and drag for catapulting). 
 * **Combat System:**
-    * разнообразные атаки (baseline auto-damage, key-based specialty attacks, AOE). [cite: 2, 3]
-    * Critical hit damage.
-    * Enemies with varied AI and attack patterns. [cite: 17]
+    * Diverse attack types. (baseline auto-damage, key-based specialty attacks, AOE). 
+    * Critical hit multipliers.
+    * Enemies with varied AI and attack patterns.
     * Boss encounters with unique mechanics (e.g., inventory disruption).
 * **Inventory, Leveling, and Progression:**
     * Synergistic inventory system with Tetris-like shapes (1x3, 3x3, L-shaped).
@@ -28,75 +26,74 @@
     * Recipe books for item configurations (buffs/weaknesses).
     * Character progression through leveling up.
 * **Interaction Systems:**
-    * Portal usage for tactical movement, baiting enemies, and offensive maneuvers. [cite: 2]
+    * Portal usage for tactical movement, baiting enemies, and offensive maneuvers. 
 
 ## 3.  Game World & Setting
 
 * **Game World:** Randomized dungeons.
 * **World-Building Details:**
-    * Dungeons with different levels, environments, and enemies.
+    * Dungeons with different levels, environments, puzzle elements, and enemies.
 
 ## 4.  Characters
 
 * **Main Character:**
-    * Player character with abilities enhanced by items and progression. [cite: 16, 17]
+    * Player character with abilities enhanced by items and progression. 
 * **Enemies:**
     * Generative AI waves for monsters.
-    * Diverse enemy types with different behaviors. [cite: 3, 17]
-    * Boss enemies with unique abilities. [cite: 3, 17]
+    * Diverse enemy types with different behaviors. 
+    * Boss enemies with unique abilities. 
 
 ## 5.  Art Style
 
-* **Visual Aesthetics:** Pixel art. [cite: 3, 18]
+* **Visual Aesthetics:** Pixel art.
 
 ## 6.  Audio & Music
 
 * **Music and Sound Effects:** \[To be determined]
-* **Music Themes:** Music themes for different parts of the game (e.g., exploration, combat). [cite: 19, 20]
+* **Music Themes:** Music themes for different parts of the game (e.g., exploration, combat). 
 
 ## 7.  Levels & Environments
 
-* **Levels/Worlds:** Randomized dungeons with varying designs. [cite: 1, 21, 22]
+* **Levels/Worlds:** Randomized dungeons with varying designs. 
 * **Level Design Guidelines:** \[To be determined, but should include difficulty progression]
 
 ## 8.  UI/UX Design
 
-* **Menu Designs:** Main menu, options menu. [cite: 22, 7]
-* **HUD:** Health, score, inventory display. [cite: 3, 7, 22]
+* **Menu Designs:** Main menu, options menu. 
+* **HUD:** Health, score, inventory display. 
 * **Inventory UI:** Backpack/build system with drag-and-drop functionality.
 
 ## 9.  Story & Narrative
 
-* Story elements may be present but are not the primary focus. [cite: 13, 14, 24]
+* Story elements may be present but are not the primary focus. 
 
 ## 10. Technical Specifications
 
-* **Target Platforms:** \[To be determined]
-* **Game Engine:** \[To be determined, examples: Godot, Unity]
+* **Target Platforms:** PC 
+* **Game Engine:** Godot
 * **Code Architecture:**
-    * Key systems include player movement, AI, inventory system, and portal management. [cite: 30]
+    * Key systems include player movement, AI, inventory system, and portal management. 
 * **Asset Pipeline:**
-    * Assets include textures, sounds, and potentially 3D models. [cite: 33, 42]
-    * Consistent naming conventions for assets (e.g., enemy\_idle.png, player\_walk.ogg). [cite: 44]
-* **Version Control:** Git. [cite: 36]
+    * Assets include textures, sounds, and potentially 3D models. 
+    * Consistent naming conventions for assets (e.g., enemy\_idle.png, player\_walk.ogg). 
+* **Version Control:** Git. 
 
 ## 11. Monetization Strategy
 
-* \[To be determined: Pricing models (upfront purchase, etc.)] [cite: 26, 27]
+* Currently open source.
 
 ## 12. Post-Launch
 
-* **Allow Mods:** Modification framework for audio, items, enemies, and maps. [cite: 4]
-* **New Features:** More enemies, relics, dungeons/levels. [cite: 74]
-* **Content Roadmap:** Future updates, expansions, or additional content. [cite: 71]
+* **Allow Mods:** Modification framework for audio, items, enemies, and maps. 
+* **New Features:** More enemies, relics, dungeons/levels. 
+* **Content Roadmap:** Future updates, expansions, or additional content. 
 
 ## 13.  Development Priorities
 
-* **Basic Scene Functionality:** Player, enemy, main scene, input manager. [cite: 5, 6]
+* **Basic Scene Functionality:** Player, enemy, main scene, input manager.
 * **Baseline Environment:** Floor tiles, wall tiles, player/enemy health and attacks, relics, dying, UI/Game Manager (score, health). [cite: 7]
-* **Core Mechanics:** Portal movement, dash movement, combat system, inventory system. [cite: 72]
-* **Enemy AI:** Enemy spawner and movement system. [cite: 72]
-* **User Interface:** Main menu, health, dash, portal, inventory, attacks, score. [cite: 73]
-* **Testing:** Test scripts, playtesting, bug fixes. [cite: 73]
+* **Core Mechanics:** Portal movement, dash movement, combat system, inventory system. 
+* **Enemy AI:** Enemy spawner and movement system. 
+* **User Interface:** Main menu, health, dash, portal, inventory, attacks, score. 
+* **Testing:** Test scripts, playtesting, bug fixes. 
 
-This document provides a solid foundation. Remember to expand on each section as your game development progresses!

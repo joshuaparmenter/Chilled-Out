@@ -5,7 +5,8 @@ extends CharacterBody2D
 @onready var health_label: Label = $Health
 @onready var score_label: Label = $Score
 @onready var menu: Control = $Camera2D/Menu
-
+@onready var game: Node2D = get_tree().current_scene  # Get the main scene
+@onready var portal_manager: Node = $"Portal Manager"
 
 var speed: float  # Movement speed
 var health: int
@@ -40,6 +41,10 @@ func _physics_process(_delta: float) -> void:
 			attack_shape.disabled = true
 	if Input.is_action_just_released("pause_game"):
 		menu.game_paused()
+	if Input.is_action_just_released("portal_place"):
+		portal_manager.place_portal()
+		
+
 	direction = direction.normalized()  # Normalize to prevent faster diagonal movement
 	velocity = direction * speed
 	move_and_slide()

@@ -1,6 +1,5 @@
 extends Control
-@onready var player: CharacterBody2D = $"../player"
-
+#@onready var player: CharacterBody2D = get_tree().get_node("Player")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

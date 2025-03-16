@@ -76,9 +76,11 @@ This section outlines the branching and commit strategy used for the Godot game 
 - **Merging Strategy**: Once the bug is fixed, the branch is merged back into `develop`.
 
 ## Contributing
-
-> **Instructions for contributing to the project.**  
-> Include guidelines for submitting issues, pull requests, and any coding conventions or style guides the team follows.
+1. Fork the repository.
+2. Create a branch related to your issue (`git checkout -b feature/my-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Open a Pull Request.
 
 ---
 

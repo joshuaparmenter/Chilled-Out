@@ -7,6 +7,7 @@ signal enemy_died
 var health: int
 var direction: int
 var dead: bool
+var is_dashing: bool
 
 @onready var ray_cast_right: RayCast2D = $RayCastRight
 @onready var ray_cast_left: RayCast2D = $RayCastLeft
@@ -18,6 +19,7 @@ func _ready() -> void:
 	health_label.text = str(health)
 	direction = 1
 	dead = false
+	is_dashing = false
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

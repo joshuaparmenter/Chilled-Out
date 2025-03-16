@@ -77,10 +77,11 @@ This section outlines the branching and commit strategy used for the Godot game 
 
 ## Contributing
 1. Fork the repository.
-2. Create a branch related to your issue (`git checkout -b feature/my-feature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/my-feature`).
-5. Open a Pull Request.
+2. Create an issue and it's asssociated subissues (if not already made) using our issue templates and the proper title syntax (look at other issues for assistance)
+3. Create a branch related to the issue you are working on using our branching and commit strategy (`git checkout -b feature/my-feature`).
+4. Commit your changes to your working branch (`git commit -am 'Add new feature'`).
+5. Push your changes to the working branch (`git push origin feature/my-feature`).
+6. Open a Pull Request and Use a Pull Request Template.
 
 ---
 

@@ -41,8 +41,10 @@ func _physics_process(_delta: float) -> void:
 			attack_shape.disabled = true
 	if Input.is_action_just_released("pause_game"):
 		menu.game_paused()
-	if Input.is_action_just_released("portal_place"):
-		portal_manager.place_portal()
+	if Input.is_action_pressed("portal_place_blue"):
+		portal_manager.place_portal(true)
+	if Input.is_action_pressed("portal_place_red"):
+		portal_manager.place_portal(false)
 		
 
 	direction = direction.normalized()  # Normalize to prevent faster diagonal movement

@@ -15,10 +15,10 @@ signal portal_position
 func _ready() -> void:
 	hide()
 
-func _on_body_entered(body: Node2D) -> void:
+func _on_body_entered(_body: Node2D) -> void:
 	if (not portal_manager.is_inside_area):  # Make sure it's the player
 		emit_signal("portal_position")  # Emit the custom signal
 		portal_manager.is_inside_area = true
 
-func _on_body_exited(body: Node2D) -> void:
+func _on_body_exited(_body: Node2D) -> void:
 	portal_manager.is_inside_area = false
